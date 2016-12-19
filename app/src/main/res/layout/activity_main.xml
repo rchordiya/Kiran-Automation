@@ -13,5 +13,38 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:paddingLeft="100dp"
+        android:paddingTop="50dp"
+        android:text="Kiranna Cart!"
+        android:textColor="#ffff1111"
+        android:id="@+id/Head1"
+        android:textSize="30dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Head1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/Login"
+        android:text="Log In"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Login"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/Guest"
+        android:text="Guest"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Guest"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/Newuser"
+        android:text="Register"
+        android:textSize="20dp"/>
 </RelativeLayout>
