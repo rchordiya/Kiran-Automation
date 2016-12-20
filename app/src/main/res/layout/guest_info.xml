@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/guest_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.chord.automationkirana.Guest_Info">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
+        android:paddingTop="20dp"
+        android:text="Register Guest"
+        android:textColor="#7811ff"
+        android:id="@+id/Head4"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:text="Name"
+        android:id="@+id/Guest_Name"
+        android:textSize="20dp"
+        android:layout_below="@+id/Head4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="20dp"
+        android:text="Mobile Number"
+        android:id="@+id/Guest_Mobile"
+        android:textSize="20dp"
+        android:layout_below="@+id/Guest_Name"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="79dp"
+        android:text="Shop"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@+id/Guest_Mobile"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:hint="Enter Your Name"
+        android:inputType="text"
+        android:id="@+id/Guest_Name_Edit"
+        android:singleLine="true"
+        android:editable="true"
+
+        android:layout_above="@+id/Guest_Mobile"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:hint="enter password"
+        android:inputType="text"
+        android:id="@+id/Guest_Mobile_Edit"
+        android:singleLine="true"
+        android:editable="true"
+        android:layout_alignTop="@+id/Guest_Mobile"
+        android:layout_alignLeft="@+id/Guest_Name_Edit"
+        android:layout_alignStart="@+id/Guest_Name_Edit" />
+
+</RelativeLayout>
