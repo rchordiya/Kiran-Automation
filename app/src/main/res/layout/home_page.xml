@@ -118,6 +118,241 @@
 
         </LinearLayout>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Personal Care"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+
+        <LinearLayout android:id="@+id/image_row3"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/hair_care" />
+
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/hairOil"/>
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/soap"/>
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/skincare"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/text_row3"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Shampoo"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Hair Oil"
+                android:clickable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="Soap"
+                android:clickable="false"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Skin Care"
+                android:clickable="false"/>
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/image_row4"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/deodrant" />
+
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/toothpaste"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/text_row4"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Deodrant"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Tooth Paste"
+                android:clickable="false"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detergent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+
+        <LinearLayout android:id="@+id/image_row5"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" android:layout_height="match_parent"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/diswash" />
+
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/laudry"/>
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/bathroom_cleaner"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/text_row5"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="DishWash"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Laundry Powder and Detergent"
+                android:clickable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:text="Bathroom Cleaners"
+                android:clickable="false"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snaks"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+
+        <LinearLayout android:id="@+id/image_row6"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" android:layout_height="match_parent"
+            android:weightSum="1">
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/buscuits" />
+
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/chips"/>
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/chocolate"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/text_row6"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Biscuits"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Chips"
+                android:clickable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:text="Chocolates"
+                android:clickable="false"/>
+
+        </LinearLayout>
+
+
+
 
 
 
