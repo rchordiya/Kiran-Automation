@@ -78,7 +78,57 @@
                 android:clickable="false"/>
         </LinearLayout>
 
+        <LinearLayout android:id="@+id/image_row2"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:weightSum="1">
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/spices" />
+
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/salt_sugar"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/text_row2"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Spices"
+                android:clickable="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Salt/Sugar"
+                android:clickable="false"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
 
     </LinearLayout>
 
+
+
 </ScrollView>
+
+
