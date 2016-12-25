@@ -15,26 +15,34 @@
 
         <LinearLayout android:id="@+id/image_row1"
             android:orientation="horizontal"
-            android:layout_width="fill_parent" android:layout_height="fill_parent">
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:weightSum="1">
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="67dp"
+                android:layout_height="80dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
-                android:src="@mipmap/ic_launcher"/>
+                android:src="@drawable/bajra" />
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="67dp"
+                android:layout_height="80dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="20dp"
-                android:src="@mipmap/ic_launcher"/>
+                android:src="@drawable/wheat"/>
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="67dp"
+                android:layout_height="80dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="20dp"
-                android:src="@mipmap/ic_launcher"/>
+                android:src="@drawable/rice"/>
+            <ImageView
+                android:layout_width="67dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/jowar"/>
+
 
 
         </LinearLayout>
@@ -45,22 +53,28 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
-                android:text="Item 1"
+                android:layout_marginLeft="30dp"
+                android:text="Bajra"
                 android:clickable="false" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:text="Item 2"
+                android:layout_marginLeft="50dp"
+                android:text="Wheat"
                 android:clickable="false"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:text="Item 3"
+                android:layout_marginLeft="55dp"
+                android:text="Rice"
+                android:clickable="false"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Jowar"
                 android:clickable="false"/>
         </LinearLayout>
 
