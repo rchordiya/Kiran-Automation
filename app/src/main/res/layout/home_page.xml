@@ -142,7 +142,7 @@
                 android:layout_height="80dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="20dp"
-                android:src="@drawable/hairOil"/>
+                android:src="@drawable/oil"/>
             <ImageView
                 android:layout_width="67dp"
                 android:layout_height="80dp"
