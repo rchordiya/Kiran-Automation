@@ -79,9 +79,9 @@
         </LinearLayout>
 
         <LinearLayout android:id="@+id/image_row2"
-        android:orientation="horizontal"
-        android:layout_width="fill_parent" android:layout_height="fill_parent"
-        android:weightSum="1">
+            android:orientation="horizontal"
+            android:layout_width="fill_parent" android:layout_height="fill_parent"
+            android:weightSum="1">
             <ImageView
                 android:layout_width="67dp"
                 android:layout_height="80dp"
@@ -254,13 +254,13 @@
                 android:layout_width="67dp"
                 android:layout_height="80dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="25dp"
                 android:src="@drawable/laudry"/>
             <ImageView
                 android:layout_width="67dp"
                 android:layout_height="80dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="35dp"
                 android:src="@drawable/bathroom_cleaner"/>
 
         </LinearLayout>
@@ -278,14 +278,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:text="Laundry Powder and Detergent"
+                android:layout_marginLeft="20dp"
+                android:text="Detergent"
                 android:clickable="false"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="55dp"
+                android:layout_marginLeft="15dp"
                 android:text="Bathroom Cleaners"
                 android:clickable="false"/>
 
@@ -365,5 +365,10 @@
 
 
 </ScrollView>
+
+
+
+
+
 
 
